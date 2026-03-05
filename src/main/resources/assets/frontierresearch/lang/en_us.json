@@ -1,0 +1,26 @@
+{
+  "itemGroup.frontierresearch": "Frontier Research",
+
+  "item.frontierresearch.basic_science_pack": "Basic Science Pack",
+  "item.frontierresearch.automation_science_pack": "Automation Science Pack",
+  "item.frontierresearch.applied_science_pack": "Applied Science Pack",
+  "item.frontierresearch.advanced_science_pack": "Advanced Science Pack",
+  "item.frontierresearch.cryo_science_pack": "Cryo Science Pack",
+
+  "block.frontierresearch.research_table": "Research Table",
+  "block.frontierresearch.burner_lab": "Burner Lab",
+
+  "container.frontierresearch.research_table": "Research Table",
+  "container.frontierresearch.burner_lab": "Burner Lab",
+
+  "technology.frontierresearch.basic_logistics": "Basic Logistics",
+  "technology.frontierresearch.automation": "Automation",
+  "technology.frontierresearch.advanced_crafting": "Advanced Crafting",
+  "technology.frontierresearch.electric_power": "Electric Power",
+  "technology.frontierresearch.cryo_research": "Cryo Research",
+
+  "frontierresearch.research.no_active": "No active research selected.",
+  "frontierresearch.research.prerequisites_missing": "Prerequisites not yet researched.",
+  "frontierresearch.research.already_unlocked": "Already researched.",
+  "frontierresearch.research.completed": "Research complete: %s"
+}
