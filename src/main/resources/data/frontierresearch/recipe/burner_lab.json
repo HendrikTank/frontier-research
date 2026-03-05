@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "R": {
+      "item": "frontierresearch:research_table"
+    }
+  },
+  "pattern": [
+    "III",
+    "IFI",
+    "IRI"
+  ],
+  "result": {
+    "item": "frontierresearch:burner_lab"
+  }
+}

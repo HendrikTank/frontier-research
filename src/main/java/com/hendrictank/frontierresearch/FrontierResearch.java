@@ -5,6 +5,7 @@ import com.hendrictank.frontierresearch.blockentity.ModBlockEntities;
 import com.hendrictank.frontierresearch.item.ModItems;
 import com.hendrictank.frontierresearch.research.ResearchManager;
 import com.hendrictank.frontierresearch.research.ModAttachments;
+import com.hendrictank.frontierresearch.research.ManualResearchHandler;
 import com.hendrictank.frontierresearch.integration.CCTweakedIntegration;
 import com.hendrictank.frontierresearch.integration.MoreRedIntegration;
 import com.mojang.logging.LogUtils;
@@ -61,6 +62,7 @@ public class FrontierResearch {
         // Register to the game event bus
         NeoForge.EVENT_BUS.register(this);
         NeoForge.EVENT_BUS.register(ResearchManager.class);
+        NeoForge.EVENT_BUS.register(ManualResearchHandler.class);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
