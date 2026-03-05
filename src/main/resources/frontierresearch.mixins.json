@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.hendrictank.frontierresearch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "frontierresearch.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

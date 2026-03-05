@@ -1,25 +1,64 @@
+# Frontier Research
 
-Installation information
-=======
+A NeoForge mod for Minecraft 1.21.1 that adds a Factorio-style research progression system.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Features
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+- **Research System**: Unlock recipes and technologies by conducting research
+- **Multiple Lab Tiers**: Progress from manual research to advanced multi-block structures
+- **Science Packs**: Consumable items used to progress research
+- **Extensible API**: Easy integration for mod developers
+- **Optional Integrations**: Support for CC:Tweaked, MoreRed, and other mods
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Lab Tiers
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+1. **Manual Research**: Pick up and inspect items to unlock basic recipes
+2. **Research Table**: Single-block structure for basic research
+3. **Burner Lab**: Fuel-powered lab with increased research speed
+4. **Multi-Block Burner Lab**: Advanced burner-based research (planned)
+5. **Multi-Block Electric Lab**: Electric-powered lab with upgrade slots (planned)
+6. **Multi-Block Cryo-Lab**: Cryogenic cooling for advanced research (planned)
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## Science Packs
+
+- **Basic Science Pack**: For tier 0-1 research
+- **Advanced Science Pack**: For tier 1-2 research
+- More science packs can be added via the API
+
+## API
+
+See [API.md](API.md) for details on:
+- Registering custom science packs
+- Creating custom research entries
+- Implementing custom lab types
+- Integration with other mods
+
+## Installation
+
+1. Download the latest release from the releases page
+2. Place the JAR file in your `mods` folder
+3. Launch Minecraft with NeoForge
+
+## Development
+
+### Building
+
+```bash
+./gradlew build
+```
+
+### Running
+
+```bash
+./gradlew runClient  # Run the game client
+./gradlew runServer  # Run the dedicated server
+```
+
+## License
+
+MIT License - See TEMPLATE_LICENSE.txt for details
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+

@@ -1,0 +1,23 @@
+{
+  "itemGroup.frontierresearch": "Frontier Research",
+  
+  "item.frontierresearch.basic_science_pack": "Basic Science Pack",
+  "item.frontierresearch.advanced_science_pack": "Advanced Science Pack",
+  "item.frontierresearch.science_pack.tier": "Tier: %s",
+  "item.frontierresearch.science_pack.value": "Research Value: %s",
+  
+  "block.frontierresearch.research_table": "Research Table",
+  "block.frontierresearch.burner_lab": "Burner Lab",
+  
+  "research.frontierresearch.basic_automation": "Basic Automation",
+  "research.frontierresearch.advanced_machinery": "Advanced Machinery",
+  "research.frontierresearch.redstone_engineering": "Redstone Engineering",
+  
+  "gui.frontierresearch.research_table": "Research Table",
+  "gui.frontierresearch.burner_lab": "Burner Lab",
+  "gui.frontierresearch.research_progress": "Progress: %s%%",
+  "gui.frontierresearch.no_research": "No research selected",
+  
+  "message.frontierresearch.research_completed": "Research completed: %s",
+  "message.frontierresearch.research_unlocked": "Unlocked: %s"
+}
