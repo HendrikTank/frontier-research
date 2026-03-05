@@ -126,3 +126,35 @@ Built-in lab tiers:
 - Tier 5: Multi-Block Cryo-Lab (planned)
 
 Higher tier labs can research faster and handle more advanced research entries.
+
+## Multi-Block Structures
+
+Future multi-block labs will use the `MultiBlockHelper` utility for structure validation:
+
+```java
+import com.hendrictank.frontierresearch.util.MultiBlockHelper;
+
+// Define a structure pattern
+MultiBlockHelper.StructurePattern pattern = new MultiBlockHelper.StructurePattern()
+    .add(0, 0, 0, Blocks.IRON_BLOCK)  // Center
+    .add(1, 0, 0, Blocks.IRON_BLOCK)  // Right
+    .addAir(0, 1, 0);                  // Air above
+
+// Validate the structure
+if (MultiBlockHelper.validateStructure(level, pos, pattern)) {
+    // Structure is valid, form the multi-block
+}
+```
+
+## Using Mixins for Advanced Integration
+
+The mod supports mixins for deep integration. Example uses:
+- Recipe locking based on research
+- Custom crafting mechanics
+- Integration with other mod systems
+
+See `RecipeManagerMixin` for a template example.
+
+## Configuration
+
+See [CONFIGURATION.md](../CONFIGURATION.md) for details on configuring research progression, lab properties, and recipe locking for modpacks and servers.
