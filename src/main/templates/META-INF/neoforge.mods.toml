@@ -46,7 +46,9 @@ displayName="${mod_name}" #mandatory
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Frontier Research adds a Factorio-style research progression system to Minecraft.
+Unlock recipes by researching technologies using science packs in various lab tiers,
+from manual inspection to advanced multi-block structures.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
